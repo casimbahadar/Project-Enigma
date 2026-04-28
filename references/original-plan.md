@@ -433,3 +433,197 @@ Subsequent fields (Loop, Hooked-on, Scope, etc.) await the next batch.
   positioning-as-magic), *build/graft* (Grafted).
 - Each game has a single sentence that names its **meta loop** /
   identity claim — useful spine for marketing copy.
+
+---
+
+## Batch 8 — The Lasting (full), Sequencing strategy, Scaffolding, Open decisions, Verification
+
+### 5. The Lasting — Time-Loop JRPG
+
+- **Folder**: `games/the-lasting/`
+- **Hook**: A small kingdom is stuck in a 30-day loop before
+  catastrophe. You remember each loop; no one else does. Recruit and
+  re-recruit a party each cycle, accumulating only what *you* know.
+- **Core loop**: FF-style story + FE-style support conversations +
+  Outer-Wilds-style knowledge-gating across loops. Combat is ATB-style
+  party RPG (lighter system focus, heavier narrative focus).
+- **Original IP**: Original cast, original kingdom, original cosmology
+  of "what causes the loop."
+- **Episodic fit**: Each chapter breaks more of the loop or extends
+  the timeline backward/forward.
+- **Zodiac flavor (locked-in)**: The 12 recruitable companions each
+  carry one of 12 original **birth-sign archetypes**
+  (Western-zodiac-inspired but renamed). Each sign reacts to the loop
+  differently: some grow fatalistic, some defiant, some scheme.
+  Birth-sign affects available support conversations, story branches,
+  and one signature ability. Lighter mechanical use than Constellate
+  — narrative-flavored rather than system-defining, so the two zodiac
+  games stay clearly distinct.
+
+### Sequencing strategy (solo-dev reality check)
+
+> You can prep **design docs and paper prototypes** for all five in
+> parallel — each one is a few days of writing/diagramming. You
+> **cannot fully build** five in parallel as a solo dev. The honest
+> sequencing:
+
+#### Phase 0 — Studio setup (week 1)
+
+- Stand up monorepo structure (`games/`, `shared/`, `docs/`).
+- Studio-level docs: brand identity, IP guidelines, art-style bible.
+- Engine and tooling decisions locked (Godot 4, save schema template,
+  dialogue tooling).
+
+#### Phase 1 — Design docs in parallel (weeks 2–4)
+
+- One-page design doc per project in its own folder
+  (`games/<name>/DESIGN.md`).
+- Combat sketch, creature/party system sketch, narrative spine,
+  episodic plan.
+- Output: 5 docs ready to share with playtesters/collaborators.
+
+#### Phase 2 — Paper prototypes in parallel (weeks 5–8)
+
+- Index-card prototype each combat system. No code.
+- Goal: identify the project whose core loop is most fun in 5 minutes.
+
+#### Phase 3 — Pick the lead, build vertical slice (months 3–5)
+
+- Default lead: **Ember & Echo** (best fit for your references and
+  your "emotions as party characters" instinct).
+- Strong alternate: **Constellate** if the zodiac cosmology excites
+  you most.
+- Vertical slice: 1 hub, 1 vignette, 1 battle, 4 starters, 1 evolution
+  event. ~30 min of polished play.
+
+#### Phase 4 — Validate, then commit
+
+- itch.io demo + Steam Next Fest.
+- Wishlist target: 5,000+ before greenlighting full Episode 1
+  production.
+- If the lead misses the metric, swap to the next-best paper
+  prototype (you've already prepped the alternates).
+
+#### Phase 5 — Full production of lead title (months 6–14+)
+
+- Full Episode 1 of the chosen lead.
+- Other four stay in design-doc state until lead ships.
+
+#### Phase 6 — Studio compounding
+
+- After lead ships and earns revenue, pick the next title from the
+  prepped portfolio.
+- Each subsequent project benefits from the shared `shared/` toolkit
+  you built for the lead.
+
+### Per-project starter scaffolding (when implementation begins)
+
+For each `games/<project>/` folder, scaffold:
+
+- `DESIGN.md` — one-page design doc (hook, loop, IP, episodic plan,
+  V-slice scope).
+- `LORE.md` — world bible (factions, cosmology, key NPCs).
+- `CREATURES.md` (for collector projects) — taxonomy, evolution
+  trees, design rules.
+- `prototype/` — paper-prototype rules and any test data.
+- `project.godot` and Godot folder structure (only when Phase 3
+  starts for that project).
+
+### Open decisions to confirm — and current resolution
+
+The original plan flagged four open decisions. All four are now
+resolved:
+
+| # | Open decision | Resolution |
+|---|---|---|
+| 1 | Repo structure: monorepo subfolders, branches-per-project, or separate repos? | **Monorepo subfolders** (locked in original plan, Batch 1–4). |
+| 2 | Lead title: Ember & Echo or Constellate? | **Ember & Echo** (default lead, Batch 1). |
+| 3 | Zodiac scope: Constellate-only or also into The Lasting? | **Both** — Constellate as flagship, The Lasting as light narrative flavor (Batch 1, confirmed by The Lasting brief above). |
+| 4 | Studio name? | **Cleave Studios** (resolved in current session — see `STUDIO-NAME.md`. Original session's working name was "Phoenix Games."). |
+
+### Verification (how to know the portfolio strategy is working)
+
+- **Design-doc test**: each one-pager should pass the 3-sentence pitch
+  test with 5 JRPG fans cold.
+- **Paper-prototype test**: a non-trivial composition decision must
+  emerge by turn 3 of the cardboard combat.
+- **Vertical slice test (lead title)**: ≥ 40% itch.io demo completion,
+  ≥ 60% "would buy" signal.
+- **Wishlist test**: 5,000+ Steam wishlists post–Next Fest before full
+  production commitment.
+- **Studio test**: at least 2 of the 5 prepped projects must still
+  feel exciting after paper prototyping. If only 1 does, you have a
+  single-game studio.
+
+---
+
+## Synthesis — what the original plan locks in
+
+After all 8 batches, here's the consolidated picture of what's locked
+versus open.
+
+### Locked
+
+- **Studio shape**: solo dev; Steam-first, mobile-port-later; premium
+  one-time + paid chapter expansions; no gacha / FOMO / live-ops.
+- **Engine**: Godot 4.
+- **Art**: pixel art at 32×32 or 48×48; commission a single character
+  artist per project after prototype validates the loop.
+- **Localization**: translation table day-one; English at launch,
+  community translations later.
+- **Repo**: monorepo with `games/<name>/`, `shared/`, `docs/`. Feature
+  branches live within. Projects can graduate to their own repo when
+  they enter full Steam production.
+- **Originality bar**: original IP — original world names, taxonomy,
+  silhouettes; mythologies (zodiacs) referenced but never appropriated.
+- **Patent-avoidance verbs**: bind / summon / graft / remember
+  (no catch / throw / mount).
+- **Slate (5 titles)**:
+  1. Ember & Echo — *Memory-Bound Tactics* (lead)
+  2. Constellate — *Star-Forged Companions* (zodiac flagship)
+  3. Chorus — *Music-Powered Tactical RPG*
+  4. Grafted — *Build-A-Beast Bio-punk RPG*
+  5. The Lasting — *Time-Loop JRPG*
+- **Dropped**: Wardens of the Veil.
+- **Zodiac scope**: full three-tier cosmology in Constellate;
+  birth-sign-flavor-only in The Lasting; not used in the others.
+- **Sequencing**: prep all 5 in parallel as docs + paper prototypes,
+  pick the most-fun-in-5-min as lead, ship it, then compound.
+- **Lead default**: Ember & Echo. Strong alternate: Constellate.
+
+### In-fiction proper nouns and factions surfaced
+
+- **Ember & Echo**: Echoes (creatures), Reverist (player class).
+- **Constellate**: Asterix (creatures), Stargazer (player class),
+  Greater Constellations / Birth Signs / Beast Court (the three tiers).
+- **Chorus**: the Hush (event), Choir (party), Brass City / Stringfen
+  / the Silent Order (factions).
+- **Grafted**: Grafters (player class), Mireling (example creature),
+  the Pure Strain Order vs. the Grafter's Guild (factions).
+- **The Lasting**: 12 birth-sign-archetype companions; original
+  kingdom + cosmology of "what causes the loop."
+
+### Verification gates (must pass before scaling)
+
+- 3-sentence pitch test with 5 cold JRPG fans (per design doc).
+- Non-trivial composition decision by turn 3 of cardboard combat.
+- ≥40% itch.io demo completion + ≥60% "would buy" signal on the
+  vertical slice.
+- 5,000+ Steam wishlists post–Next Fest.
+- ≥2 of the 5 prepped projects still feel exciting after
+  paper-prototyping (otherwise it's a single-game studio).
+
+### Current branch state vs. plan
+
+- `STUDIO-NAME.md` exists at root → should move to
+  `docs/STUDIO-NAME.md` (or be folded into a `docs/BRAND.md`).
+- `GAMES.md` at root → keep as portfolio index, but expand into the
+  per-project `games/<name>/DESIGN.md` files when Phase 1 begins.
+- `references/original-plan.md` → keep; session scaffolding.
+- Missing: `games/<name>/` for all five, `shared/`, `docs/`.
+
+---
+
+*End of original-plan transcription. Awaiting direction on next steps
+(restructure to locked layout, kick off Phase 0 setup, draft Phase 1
+DESIGN.md for Ember & Echo, etc.).*
