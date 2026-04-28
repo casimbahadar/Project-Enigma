@@ -258,3 +258,178 @@ Subsequent fields (Loop, Hooked-on, Scope, etc.) await the next batch.
 | Creature mechanic verbs | catch/tame | bind / summon / graft / remember | Use the locked verbs |
 | Art style | TBD | pixel art (32×32 or 48×48) | Locked |
 | Localization | TBD | EN at launch, community translations later, table from day one | Locked |
+
+---
+
+## Batch 6 — Ember & Echo full brief + Constellate opening
+
+### 1. Ember & Echo — Memory-Bound Tactics *(lead title)*
+
+- **Folder**: `games/ember-and-echo` / `games/ember-and-echo/`
+- **Hook**: In a world where strong memories crystallize into
+  spirit-creatures called **Echoes**, you play a **Reverist** who steps
+  into a person's memory and binds the Echo born from it.
+- **Core loop**: Tactical-grid combat (FE-style, 4–6 Echoes, 8×8 grid,
+  3–7 min battles) → **Resonance system** (adjacent Echoes with
+  matched/complementary emotions get buffs) → Echoes evolve along
+  branches driven by which emotion-fragments you feed them.
+- **Original IP**: Every Echo has a named human origin and a one-screen
+  recruitment vignette. Bonds unlock support conversations.
+- **Why it's the lead**: Hits all four reference touchstones (FF
+  narrative, FE tactics, Pokémon collection, Digimon evolution).
+  Captures the "emotions as party characters" intuition exactly.
+- **Episodic fit**: Each chapter = a region tied to a memory-theme
+  (joy, grief, etc.); new Echoes per chapter.
+
+### 2. Constellate — Star-Forged Companions *(zodiac flagship)* — partial
+
+- **Folder**: `games/constellate` / `games/constellate/`
+- **Hook**: A world fragmented into floating sky-isles, each under a
+  different celestial sign. **Asterix** creatures are born when
+  starlight imprints on living matter. You are a **Stargazer** who maps
+  constellations to summon and bond them.
+- **Core loop**: ATB-style 4v4 party combat with **zodiac synergies**
+  between adjacent party slots. Sky alignment shifts in-game weekly,
+  rotating which celestial signs are dominant — natural daily/weekly
+  meta on mobile, scheduled boss windows on Steam.
+- **Three-tier celestial cosmology** (uses all the zodiac flavors):
+  - **The Greater Constellations** (12+ original constellations) →
+    creature *families* with their own mythology.
+  - *(remaining tiers TBD in next batch)*
+
+### New facts unlocked
+
+- **Ember & Echo's full mechanic stack**:
+  - Genre: tactical-grid (FE-style)
+  - Party size: 4–6 Echoes
+  - Grid: 8×8
+  - Battle length: 3–7 min
+  - **Resonance system** for adjacency buffs
+  - Echo evolution branches driven by emotion-fragment feeding
+  - Recruitment via memory-vignettes + bonds-unlock-supports
+  - Chapter structure = regions tied to memory-themes
+
+- **Constellate's in-fiction terms**:
+  - **Asterix** = creature class (starlight on living matter)
+  - **Stargazer** = player class
+  - World shape: floating sky-isles per celestial sign
+  - **Three-tier cosmology** structure (only top tier visible so far —
+    "Greater Constellations" with 12+ originals)
+
+- **Potential design tension to flag**:
+  - Studio-wide rule (Batch 5): "No gacha, no FOMO, no **live-ops**."
+  - Constellate brief: "daily/weekly meta on mobile, scheduled boss
+    windows on Steam."
+  - These read as adjacent — rotating-content-as-natural-meta vs.
+    operator-driven live-ops — but worth surfacing as a question if/when
+    we deep-dive Constellate.
+
+- **Ember & Echo recruitment language**:
+  - The verb is **bind** (matches the "bind / summon / graft / remember"
+    list from Batch 5's no-Nintendo-patent rule).
+
+---
+
+## Batch 7 — Constellate (full), Chorus, Grafted
+
+### 2. Constellate — Star-Forged Companions *(zodiac flagship)* — FULL
+
+- **Folder**: `games/constellate` / `games/constellate/`
+- **Hook**: A world fragmented into floating sky-isles, each under a
+  different celestial sign. **Asterix** creatures are born when
+  starlight imprints on living matter. You are a **Stargazer** who maps
+  constellations to summon and bond them.
+- **Core loop**: ATB-style 4v4 party combat with **zodiac synergies**
+  between adjacent party slots. Sky alignment shifts in-game weekly,
+  rotating which celestial signs are dominant — natural daily/weekly
+  meta on mobile, scheduled boss windows on Steam.
+- **Three-tier celestial cosmology** (uses all the zodiac flavors):
+  - **The Greater Constellations** (12+ original constellations) →
+    creature *families* with their own mythology.
+  - **The Birth Signs** (12 original signs, Western-zodiac-inspired
+    but renamed) → the player's chosen birth sign sets a starter
+    Asterix and an innate ability (FF job-class equivalent).
+  - **The Beast Court** (12 original spirit-beasts,
+    Chinese-zodiac-inspired but renamed and redesigned) → faction
+    leaders who govern world regions; aligning with one unlocks story
+    branches and exclusive Asterix.
+- **Original IP**: Fully owned celestial pantheon. Names and visual
+  silhouettes are original; archetypes only gesture at known zodiacs
+  (e.g., a horned charging beast in place of Aries).
+- **Episodic fit**: Each new chapter = a new sky-isle + new
+  constellation + new Beast Court allegiance branch.
+
+### 3. Chorus — Music-Powered Tactical RPG
+
+- **Folder**: `games/chorus` / `games/chorus/`
+- **Hook**: After "**the Hush**," sound is sacred and songs literally
+  power magic. Your party is a **Choir**; each member is a voice or
+  instrument; adjacency on the grid composes harmonies that fuel
+  combos.
+- **Core loop**: FE-style grid combat. Adjacent party members compose
+  a chord; chord type unlocks that turn's spells. **Positioning *is*
+  the magic system.**
+- **Original IP**: Original musical-themed factions (**Brass City**,
+  **Stringfen**, **the Silent Order**). Original cosmology of how the
+  Hush happened and what music-magic costs.
+- **Episodic fit**: Each chapter = a new region tied to a musical
+  genre/faction.
+- **Marketing edge**: audio-forward identity is highly shareable on
+  TikTok/streams; lowest competition in this niche.
+
+### 4. Grafted — Build-A-Beast Bio-punk RPG
+
+- **Folder**: `games/grafted` / `games/grafted/`
+- **Hook**: A bio-punk world where **Grafters** splice creature parts
+  to create new beings. You don't catch creatures — you **build** them
+  from essences harvested from defeated beasts.
+- **Core loop**: Party combat with creatures you designed. Each
+  creature has trained moves *plus* innate moves inherited from the
+  organs you grafted ("venom gland from the **Mireling**" → Toxic).
+  **Crafting depth is the meta loop.**
+- **Original IP**: Ethical-faction war (**the Pure Strain Order** vs.
+  **the Grafter's Guild**) provides narrative spine. Original parts
+  catalog and biome ecology.
+- **Episodic fit**: Each chapter = a new biome with a new parts
+  catalog.
+- **Marketing edge**: every player's roster looks unique → natural
+  sharing/screenshot engine.
+
+### New facts unlocked in Batch 7
+
+**Constellate — full cosmology**:
+- All three zodiac systems are mapped to discrete in-game tiers:
+  - Greater Constellations → creature *families* + mythology (top tier)
+  - Birth Signs → 12 originals, Western-zodiac-inspired, drives starter
+    Asterix + innate ability (FF job-class equivalent)
+  - Beast Court → 12 originals, Chinese-zodiac-inspired, drives
+    faction leaders + region politics + exclusive recruits
+- All names/silhouettes are original; archetypes only *gesture* at
+  known zodiacs (Aries → horned charging beast, etc.) — explicit
+  rule for original-IP integrity.
+
+**Chorus — locked terms**:
+- World event: "**the Hush**"
+- Party: **Choir**
+- Factions: **Brass City**, **Stringfen**, **the Silent Order**
+- Magic system thesis: positioning on the grid *is* the magic
+- Marketing claim: lowest-competition niche; TikTok-friendly identity
+
+**Grafted — locked terms**:
+- Player class: **Grafters**
+- Verb: **build** (not catch) — matches the "build/graft" verbs from
+  the Nintendo-patent-avoidance rule
+- Factions: **the Pure Strain Order** (ethical opposition) vs. **the
+  Grafter's Guild** (player-aligned)
+- Example creature: **Mireling** (its venom gland → Toxic affinity)
+- Meta loop: crafting depth, not collection breadth
+- Episodic structure: chapter = biome + parts catalog
+- Marketing claim: every roster is unique → screenshot/share-driven
+  reach
+
+**Cross-cutting observations**:
+- The "no Nintendo patents" rule is honored verb-by-verb across the
+  slate: *bind* (E&E), *summon* (Constellate), *compose* (Chorus —
+  positioning-as-magic), *build/graft* (Grafted).
+- Each game has a single sentence that names its **meta loop** /
+  identity claim — useful spine for marketing copy.
