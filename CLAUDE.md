@@ -50,18 +50,40 @@ conversations) — never the IP.
 - `docs/IP-GUIDELINES.md` — originality bar, patent-avoidance verbs,
   zodiac handling rules.
 - `docs/ART-BIBLE.md` — pixel-art standards and shared pipeline.
+- `docs/RELEASE-STRATEGY.md` — slate sequencing, per-title platform
+  fit, mobile monetization, revenue checkpoints.
 - `GAMES.md` — slate index (one-line per game).
 - `games/<name>/README.md` — per-game quick spec + pointer to plan.
+- `games/<name>/DESIGN.md` — one-page design brief (hook, loop, IP,
+  episodic plan, V-slice scope).
+- `games/<name>/prototype/PROTOTYPE.md` — paper-prototype brief for
+  Phase 2 testing.
 - `references/original-plan.md` — full transcription of the original
   brainstorm session, in 8 batches with synthesis. Authoritative for
   any detail not yet in `docs/` or `games/`.
 
 ## Where we are
 
-**Phase 0 — Studio setup.** Brand, IP guidelines, art bible, and repo
-structure are in place. Next is **Phase 1** — write a one-page
-`DESIGN.md` for each of the five games, in parallel. Default starting
-order: Ember & Echo first.
+- ✅ **Phase 0 — Studio setup.** Brand, IP guidelines, art bible,
+  release strategy, and repo structure are in place.
+- ✅ **Phase 1 — Design docs in parallel.** All five `DESIGN.md`
+  one-pagers are landed.
+- 🟡 **Phase 2 — Paper prototypes (in progress).** All five
+  `PROTOTYPE.md` briefs are staged. Next gate is the physical
+  kitchen-table test sessions; the goal is to identify the project
+  whose core loop is most fun in 5 minutes.
+- ⬜ Phase 3 — pick lead, build vertical slice
+- ⬜ Phase 4 — validate (itch.io demo + Steam Next Fest, 5,000
+  wishlist target)
+- ⬜ Phase 5 — full production of lead title
+- ⬜ Phase 6 — studio compounding
+
+## Slate release order (per `docs/RELEASE-STRATEGY.md`)
+
+`Ember & Echo → Grafted → The Lasting → Chorus → Constellate.`
+Sequencing accounts for engine reuse, mobile-platform fit, and
+capstone toolkit assembly (Grafted's procedural-sprite system feeds
+Constellate's 36+ creature roster).
 
 ## Sequencing reminder
 
